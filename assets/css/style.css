@@ -830,7 +830,12 @@ a:hover, a:focus {
   font-size: 14px;
  }
 }
-
+@media (max-width: 1600px) and (min-width: 1365px)
+{
+  .row{
+    margin-left: 2rem;
+  }
+}
 #countdown1 {
   text-align: center;
   color: antiquewhite;
