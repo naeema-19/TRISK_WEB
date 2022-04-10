@@ -833,7 +833,7 @@ a:hover, a:focus {
 @media (max-width: 1600px) and (min-width: 1365px)
 {
   .row{
-    margin-left: 2rem;
+    margin-left: 0.15rem;
   }
 }
 #countdown1 {
