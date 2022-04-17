@@ -430,6 +430,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size:4.7rem;
 }
 
+.extra{
+  display:none;
+}
+
 @media all and (max-width:360px){
   .trisk{
     font-size: 14vmin;
@@ -450,6 +454,26 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media all and (min-width:1650px){
+  .extra{
+    display:block;
+  }
+  .trisk{
+    font-size:7vmax;
+  }
+  .siz{
+    font-size:8vmax;
+  }
+}
+
+@media all and (min-width:1900px){
+  .trisk{
+    font-size:8rem;
+  }
+  .siz{
+    font-size:10rem;
+  }
+}
 /* .countdown{
   display: flex;
   padding-bottom: 3rem;
